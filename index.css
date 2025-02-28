@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#bg-image {
+    background: url("assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    /* backdrop-filter: blur(10px);
+    filter: blur(10px); */
+    z-index: -1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 60px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.disclaimer {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 15px 32px;
+    color: white;
+    position: absolute;
+}
+
+button {
+    background-color: #6066da;
+    border: none;
+    color: white;
+    margin: 10px;
+    width: 40%;
+    height: 75px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 6px;
+    transition: all 100ms ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+    outline: 3px solid #6066da;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+}
+
+.center-buttons {
+    text-align: center;
+}
