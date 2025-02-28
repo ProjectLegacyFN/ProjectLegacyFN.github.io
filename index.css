@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Burbank;
+    src: url("assets/burbank.otf");
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Burbank;
     height: 100%;
 }
 
@@ -29,6 +34,7 @@ h1 {
     padding: 0;
     margin: auto;
     color: white;
+    user-select: none;
 }
 
 h2 {
@@ -38,6 +44,7 @@ h2 {
     margin: auto;
     color: white;
     font-size: 20px;
+    user-select: none;
 }
 
 h4 {
@@ -46,6 +53,7 @@ h4 {
     margin: auto;
     color: white;
     font-size: 20px;
+    user-select: none;
 }
 
 .disclaimer {
@@ -56,6 +64,7 @@ h4 {
     padding: 15px 32px;
     color: white;
     position: absolute;
+    user-select: none;
 }
 
 button {
@@ -73,6 +82,13 @@ button {
     border-radius: 6px;
     transition: all 100ms ease-in-out;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: rgb(159, 163, 237, 0.3);
+    color: rgb(255, 255, 255, 0.3);
 }
 
 button:hover {
